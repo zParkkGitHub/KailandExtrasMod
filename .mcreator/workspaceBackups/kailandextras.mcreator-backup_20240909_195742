@@ -137,9 +137,9 @@
   "workspaceSettings": {
     "modid": "kailandextras",
     "modName": "KailandExtras",
-    "version": "1.8",
-    "author": "zParkk, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "version": "3.0",
+    "author": "zParkk, GatoArtStudio",
+    "websiteURL": "https://www.kailand.es",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -148,7 +148,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "zParkk",
     "modElementsPackage": "net.mcreator.kailandextras",
     "lockBaseModFiles": false
   },
