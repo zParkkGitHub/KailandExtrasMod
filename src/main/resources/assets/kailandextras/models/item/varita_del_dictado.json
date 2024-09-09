@@ -1,0 +1,7 @@
+{
+  "parent": "kailandextras:custom/dictadomodel",
+  "textures": {
+    "2": "kailandextras:blocks/dictadotexture",
+    "particle": "kailandextras:items/dictadotexture"
+  }
+}

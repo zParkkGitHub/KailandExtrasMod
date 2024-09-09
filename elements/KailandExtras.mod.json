@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Kailand Extras",
+    "icon": {
+      "value": "CUSTOM:Icon"
+    },
+    "showSearch": false
+  }
+}

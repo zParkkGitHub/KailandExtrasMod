@@ -1,0 +1,156 @@
+{
+  "mod_elements": [
+    {
+      "name": "Icon",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kailandextras/item/IconItem.java",
+          "src/main/resources/assets/kailandextras/models/item/icon.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "KailandExtras",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailand_extras",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Otros"
+    },
+    {
+      "name": "VaritaDelDictado",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "varita_del_dictado",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kailandextras/models/item/varita_del_dictado.json",
+          "src/main/java/net/mcreator/kailandextras/item/VaritaDelDictadoItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Ordenes",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ordenes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kailandextras/procedures/OrdenesProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Galleta",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "galleta",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kailandextras/item/GalletaItem.java",
+          "src/main/resources/assets/kailandextras/models/item/galleta.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "QuitCooldown",
+      "type": "command",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "quit_cooldown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kailandextras/command/QuitCooldownCommand.java"
+        ]
+      },
+      "path": "~/Otros"
+    },
+    {
+      "name": "QuitarCooldown",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "quitar_cooldown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kailandextras/procedures/QuitarCooldownProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "cooldownDisabledPlayers",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabkailand_extras": "Kailand Extras",
+      "item.kailandextras.icon": "Icon",
+      "item.kailandextras.galleta": "Galleta",
+      "item.kailandextras.varita_del_dictado": "Varita Del Dictado"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Otros",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "kailandextras",
+    "modName": "KailandExtras",
+    "version": "1.8",
+    "author": "zParkk, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.kailandextras",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
